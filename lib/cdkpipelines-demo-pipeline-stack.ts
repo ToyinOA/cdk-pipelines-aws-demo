@@ -30,7 +30,7 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
 
         // This is where we add the application stages
         pipeline.addStage(new CdkpipelinesDemoStage(this, 'PreProd', {
-            env: { account: 'ToyinOA/cdk-pipelines-aws-demo', region: 'eu-west-2' }
+            env: { account: '644655966334', region: 'eu-west-2' }
         }));
     }
 }
